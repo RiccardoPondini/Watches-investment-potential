@@ -1,2 +1,2 @@
-# Watches-investment-potential
-Data-driven analysis of luxury watches prices to assess their potential as investment assets.
+This project investigates whether luxury watches can be considered a wise investment by analyzing price trends and volatility. Using data scraped from watchpricetrend.com via Selenium and processed with Python, the notebook performs time series modeling and forecasting with ARIMA, GARCH, and VAR models. It leverages machine learning tools like Random Forest and Lasso Regression to model and predict price movements, and uses SHAP values to interpret model results. The data pipeline includes multithreaded scraping, CSV consolidation, and advanced visualization (Matplotlib, Plotly, Seaborn). The goal is to provide actionable insights on the financial behavior of high-end timepieces over time.
+
